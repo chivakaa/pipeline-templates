@@ -1,7 +1,6 @@
 pool:
   name: Default
   demands:
-    - npm
     - Agent.OS -equals Linux
 
 variables:
