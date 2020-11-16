@@ -1,7 +1,8 @@
 pool:
-  vmImage: 'Ubuntu-16.04'
+  name: Default
   demands:
     - npm
+    - Agent.OS -equals Linux
 
 variables:
   buildConfiguration: 'Release'
